@@ -11,18 +11,6 @@
         "paths": {
             "@src/*": [
                 "./src/*"
-            ],
-            "@comp/*": [
-                "./src/components/*"
-            ],
-            "@layout/*": [
-                "./src/components/layout/*"
-            ],
-            "@hooks/*": [
-                "./src/components/hooks/*"
-            ],
-            "@tests/*": [
-                "./__tests__/*"
             ]
         }
     },
