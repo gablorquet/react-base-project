@@ -10,7 +10,7 @@ describe(('Placeholder'), () => {
 
             const { queryByText } = render(
                 <PlaceholderComponent />
-            )
+            );
 
             const hello = queryByText('Hello');
             const world = queryByText('World');
