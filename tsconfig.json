@@ -1,0 +1,32 @@
+{
+    "exclude": [
+        ".git",
+        ".app-cache",
+        ".npm",
+        ".npm-tmp",
+        "dist",
+        "dist*",
+        "node_modules",
+        "**/dist/*",
+        "**/node_modules/*",
+    ],
+    "compilerOptions": {
+        "allowJs": true,
+        "jsx": "react",
+        "module": "commonjs",
+        "target": "ES2019",
+        "skipLibCheck": true,
+        "esModuleInterop": true,
+        "noImplicitAny": false,
+        "sourceMap": true,
+        "baseUrl": ".",
+        "noEmit": true,
+        "moduleResolution": "node",
+        "resolveJsonModule": true,
+        "paths": {
+            "@src/*": [
+                "./src/*"
+            ]
+        }
+    }
+}

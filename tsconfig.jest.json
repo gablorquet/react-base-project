@@ -1,0 +1,33 @@
+{
+    "extends": "./tsconfig",
+    "compilerOptions": {
+        "jsx": "react",
+        "noEmit": true,
+        "module": "commonjs",
+        "types": [
+            "jest",
+            "node"
+        ],
+        "paths": {
+            "@src/*": [
+                "./src/*"
+            ],
+            "@comp/*": [
+                "./src/components/*"
+            ],
+            "@layout/*": [
+                "./src/components/layout/*"
+            ],
+            "@hooks/*": [
+                "./src/components/hooks/*"
+            ],
+            "@tests/*": [
+                "./__tests__/*"
+            ]
+        }
+    },
+    "include": [
+        "__tests__/",
+        "src"
+    ]
+}
